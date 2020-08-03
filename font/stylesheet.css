@@ -3,4 +3,11 @@
   src: url("ofont.ru_Bebas Neue.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+  font-family: "BebasNeueBook";
+  src: url("ofont.ru_Bebas Neue2.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
  }

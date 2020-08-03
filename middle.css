@@ -1,25 +1,31 @@
-@media (max-width: 1400px) {
+@media (max-width: 1550px) {
   .connect-server,
   .circle-bg,
   .loading,
   .design {
     display: none;
   }
+}
 
+@media (max-width: 1400px) {
   .container {
     padding: 0 15px;
+  }
+
+  main .container {
+    background: none;
   }
 }
 
 @media (max-width: 1200px) {
   header .container {
     display: block;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
   }
   
   .logo {
-    position: inherit;
-    margin: 0 auto;
+    position: static;
+    margin: 20px auto 35px auto;
   }
 
   .header__nav {
@@ -36,6 +42,14 @@
 }
 
 @media (max-width: 1130px) {
+  .main__top {
+    margin-bottom: 35px;
+  }
+  
+  .bet {
+    margin-top: 30px;
+  }
+  
   .bet-data {
     justify-content: space-around;
   }
@@ -75,7 +89,6 @@
   .main__top {
     justify-content: flex-start;
     flex-direction: column;
-    /* height: 200px; */
   }
 
   .mode {
@@ -153,21 +166,15 @@
   }
 }
 
-@media (max-width: 502px) {
-  .header__nav a {
-    font-size: 14px;
+@media (max-width: 520px) {
+  .header__nav {
+    flex-wrap: wrap;
   }
-}
-
-@media (max-width: 399px) {
+  
   .header__nav a {
-    font-size: 10px;
-  }
-}
-
-@media (max-width: 331px) {
-  .header__nav a {
-    font-size: 8px;
+    padding: 0;
+    width: calc(50% - 5px);
+    font-size: 16px;
   }
 }
 
@@ -212,26 +219,21 @@
   }
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 920px) {
   .message {
     display: block !important;
   }
 
-  .messge__left {
+  .message__left {
     width: 100% !important;
     max-width: 100%;
   }
   
   .message__right {
+    margin: 0 auto;
     margin-top: 20px;
-  }
-}
-
-@media (max-width: 700px) {
-  .message__right {
-    width: 100%;
-    padding: 0;
-    margin: 20px auto;
+    width: 400px;
+    max-width: 100%;
   }
 
   .message__right p {
@@ -239,7 +241,21 @@
   }
 
   .message__right ul {
-    padding-left: calc(10%);
+    width: 300px;
+    max-width: 100%;
+    padding-left: 30px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 450px) {
+  .message__right {
+    padding: 0 15px;
+  }
+
+  .message__right ul {
+    padding-left: 0;
+    font-size: 16px;
   }
 }
 
