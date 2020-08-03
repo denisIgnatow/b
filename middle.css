@@ -1,0 +1,312 @@
+@media (max-width: 1400px) {
+  .connect-server,
+  .circle-bg,
+  .loading,
+  .design {
+    display: none;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 1200px) {
+  header .container {
+    display: block;
+    margin-bottom: 50px;
+  }
+  
+  .logo {
+    position: inherit;
+    margin: 0 auto;
+  }
+
+  .header__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .user-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1130px) {
+  .bet-data {
+    justify-content: space-around;
+  }
+  
+  .bet-data__right {
+    width: calc(100% - 300px);
+    max-width: 500px;
+  }
+  
+  .bet-data__form {
+    display: block;
+  }
+
+  .form__sum {
+    width: 100%;
+  }
+
+  .form__submit {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .form__submit div {
+    display: none;
+  }
+
+  .form__data {
+    justify-content: space-around;
+  }
+  
+  .form__balance {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .main__top {
+    justify-content: flex-start;
+    flex-direction: column;
+    /* height: 200px; */
+  }
+
+  .mode {
+    position: static;
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 840px) {
+  footer .container {
+    display: block;
+    padding: 20px 0;
+  }
+
+  .open-chat {
+    position: static;
+    margin: 10px auto;
+  }
+
+  footer nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sum {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .bet-data {
+    display: block;
+  }
+
+  .bet-data__graph {
+    margin: 0 auto;
+  }
+
+  .bet-data__right {
+    margin-top: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .bet-data__right-bottom {
+    margin-top: 20px;
+  }
+
+  .bet__chance {
+    display: block;
+  }
+
+  .bet tr,
+  .bet th {
+    font-size: 14px;
+  }
+  
+  .bet__chance .chance__bar {
+    margin: 0 auto;
+  }
+
+  .bet__user img {
+    margin-right: 2px;
+  }
+
+  .bet__user p {
+    margin-left: 2px;
+  }
+}
+
+@media (max-width: 502px) {
+  .header__nav a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 399px) {
+  .header__nav a {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 331px) {
+  .header__nav a {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 769px) {
+  .user-bar {
+    display: block;
+  }
+
+  .user-bar__item {
+    width: 160px;
+    margin: 10px auto;
+  }
+
+  .user-bar__profile {
+    margin: 0 auto;
+  }
+  
+  .user-bar__nick {
+    text-align: center;
+  }
+
+  .user-bar__online {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 360px) {
+  footer nav a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 410px) {
+  .mode {
+    display: block;
+  }
+
+  .mode__item {
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 1250px) {
+  .message {
+    display: block !important;
+  }
+
+  .messge__left {
+    width: 100% !important;
+    max-width: 100%;
+  }
+  
+  .message__right {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .message__right {
+    width: 100%;
+    padding: 0;
+    margin: 20px auto;
+  }
+
+  .message__right p {
+    text-align: center;
+  }
+
+  .message__right ul {
+    padding-left: calc(10%);
+  }
+}
+
+@media (max-width: 537px) {
+  .message__inner {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 500px) {
+  .message {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .message__inner {
+    font-size: 14px;
+  }
+
+  .message__form {
+    flex-direction: column;
+  }
+
+  .message__input {
+    width: 100%;
+    height: 50px;
+  }
+
+  .message__submit {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+  }
+
+  .message__right_middle {
+    flex-direction: column;
+  }
+
+  .message__right_middle div {
+    margin-right: 0;
+  }
+
+  .message__right p {
+    margin: 10px 0;
+  }
+
+  .message__right_middle button {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 436px) {
+  .message__user  {
+    width: 100%;
+  }
+
+  .message__inner {
+    /* width: calc(100% - 100px); */
+    /* min-width: calc(100% - 100px); */
+    max-width: calc(100% - 100px);
+    margin: 0;
+    padding-top: 12px;
+    margin-right: 10px;
+  }
+
+  .message__date {
+    width: 90px;
+  }
+}

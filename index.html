@@ -1,0 +1,326 @@
+<!-- сделать свечение элементам -->
+<!-- правильно центрировать элементы -->
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="middle.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <nav class="header__nav">
+        <a href="#">Вопросы и ответы</a>
+        <a href="#">Бонусы</a>
+        <a href="#">Честная игра</a>
+        <a href="#">Поддержка</a>
+      </nav>
+
+      <a href="index.html"><img src="img/logo.png" class="logo"></a>
+
+      <div class="user-bar">
+        <div class="user-bar__online user-bar__item">
+          <div class="online-stats-cube"></div>
+          <div class="online__num">257</div>
+        </div>
+        <div class="user-bar__language user-bar__item">
+          <div class="language__inner">Русский</div>
+          <div class="language__list">
+            <div class="language__item">Русский</div>
+            <div class="language__item">english</div>
+          </div>
+        </div>
+        <div class="user-bar__balance user-bar__item">
+          <div class="balance__inner">Баланс 7899 Р</div>
+          <div class="balance__list">
+            <div class="balance__item">пополнить</div>
+            <div class="balance__item">вывести</div>
+            <div class="balance__item">перевести</div>
+            <div class="balance__item">история</div>
+          </div>
+        </div>
+        <div class="user-bar__profile">
+          <img src="img/user.png" class="user-bar__avatar user-bar__item">
+          <div class="user-bar__nick user-bar__item">nickname</div>
+          <div class="user-bar__menu user-bar__item">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <div class="profile__list">
+            <a href="#" class="profile__item">Мой профиль</a>
+            <a href="#" class="profile__item">Настройки</a>
+            <a href="#" class="profile__item">Выйти</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="main__top">
+        <div class="hash">
+          Хэш
+          <span class="hash__inner">fsdflsdf4654sd65f4</span>
+        </div>
+
+        <div class="mode">
+          <a href="#" class="mode__item">
+            <img src="img/mode1.png" class="mode__icon">
+            <div class="mode__text">Jackpot</div>
+          </a>
+          <a href="#" class="mode__item mode__item2">
+            <img src="img/mode2.png" class="mode__icon">
+            <div class="mode__text">Jackpot</div>
+          </a>
+          <a href="#" class="mode__item">
+            <img src="img/mode3.png" class="mode__icon">
+            <div class="mode__text">Jackpot</div>
+          </a>
+        </div>
+
+        <div class="history">
+          <a href="#" class="history__item">история игр</a>
+          <a href="#" class="history__item">мои победы</a>
+        </div>
+      </div>
+      
+      <div class="sum">15612 Р</div>
+      
+      <div class="bet-data">
+        <div class="bet-data__graph">
+          <img src="img/circle.png"  class="bet-data__circle">
+          <div class="bet-data__num">20</div>
+          <img src="img/circle__part.png" class="circle__part">
+
+          
+        </div>
+
+        <div class="bet-data__right">
+          <form action=# class="bet-data__form">
+            <div class="form__sum">
+              <input type="text" placeholder="введите сумму">
+              <p>новая ставка</p>
+              <div></div>
+            </div>
+            <div class="form__submit">
+              <button type="submit">Сделать ставку</button>
+              <div></div>
+            </div>
+            <div class="form__data">
+              <div class="form__balance"><span class="red">Р </span> баланс 9999</div>
+              <div class="form__chance"><span class="red">%</span>шанс 90.00%</div>
+            </div>
+          </form>
+
+          <div class="bet-data__right-bottom">
+            <p class="right__text">Все игроки</p>
+            
+            <div class="right__item">
+              <img src="img/player.png" class="right__item_img">
+              <div class="right__item_text">90.00%</div>
+            </div>
+            <div class="right__item">
+              <img src="img/player.png" class="right__item_img">
+              <div class="right__item_text">90.00%</div>
+            </div>
+            <div class="right__item">
+              <img src="img/player.png" class="right__item_img">
+              <div class="right__item_text">90.00%</div>
+            </div>
+            <div class="right__item">
+              <img src="img/player.png" class="right__item_img">
+              <div class="right__item_text">90.00%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <table class="bet">
+        <tr>
+          <th>Имя игрока</th>
+          <th>Сумма ставки</th>
+          <th>Номера билетов</th>
+          <th>Шанс</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="bet__user">
+              <img src="img/user.png">
+              <p class="bet__name">nickname</p>
+            </div>
+          </td>
+          <td>2549 Р</td>
+          <td>Билеты 1500-9000</td>
+          <td>
+            <div class="bet__chance">
+              <div class="chance__bar">
+                <div class="bar__inner"></div>
+              </div>
+              <div class="bet__percentage">90.00%</div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="bet__user">
+              <img src="img/user.png">
+              <p>nickname</p>
+            </div>
+          </td>
+          <td>2549 Р</td>
+          <td>Билеты 1500-9000</td>
+          <td>
+            <div class="bet__chance">
+              <div class="chance__bar">
+                <div class="bar__inner"></div>
+              </div>
+              <div class="bet__percentage">90.00%</div>
+            </div>
+          </td>
+        </tr>
+      </table>
+
+      <div class="message">
+        <div class="message__left">
+          <div class="message__list">
+            <div class="message__item">
+              <div class="message__user">
+                <img src="img/user.png" class="message__avatar">
+                <p class="message__nickname">nickname</p>
+                <div class="message__num">1</div>
+              </div>
+  
+              <div class="message__inner">Привет,  как дела?</div>
+  
+              <div class="message__date">сегодня в 05:02</div>
+            </div>
+  
+            <div class="message__item">
+              <div class="message__user">
+                <img src="img/user.png" class="message__avatar">
+                <p class="message__nickname">nickname</p>
+                <div class="message__num">1</div>
+              </div>
+  
+              <div class="message__inner">Привет,  как дела?</div>
+  
+              <div class="message__date">сегодня в 05:02</div>
+            </div>
+  
+            <div class="message__item">
+              <div class="message__user">
+                <img src="img/user.png" class="message__avatar">
+                <p class="message__nickname">nickname</p>
+                <div class="message__num">1</div>
+              </div>
+  
+              <div class="message__inner">Привет,  как дела?</div>
+  
+              <div class="message__date">сегодня в 05:02</div>
+            </div>
+  
+            <div class="message__item">
+              <div class="message__user">
+                <img src="img/user.png" class="message__avatar">
+                <p class="message__nickname">nickname</p>
+                <div class="message__num">1</div>
+              </div>
+  
+              <div class="message__inner">Привет,  как дела?</div>
+  
+              <div class="message__date">сегодня в 05:02</div>
+            </div>
+  
+            <div class="message__item">
+              <div class="message__user">
+                <img src="img/user.png" class="message__avatar">
+                <p class="message__nickname">nickname</p>
+                <div class="message__num">1</div>
+              </div>
+  
+              <div class="message__inner">Привет,  какcvbcxbdfbdfbdfbdbfdsbfgfdgdfsgdfgdfsgsdfgsdgsdgsdfg gdfsgdfsgsdgg дела?</div>
+  
+              <div class="message__date">сегодня в 05:02</div>
+            </div>
+          </div>
+  
+          <form action="#" class="message__form">
+            <input type="text" class="message__input" placeholder="Введите сообщение">
+            <button type="submit" class="message__submit">Отправить</button>
+          </form>
+        </div>
+        
+        <div class="message__right">
+          <div class="message__right_top">
+            <div class="giving">Раздача 24:09</div>
+            <div class="plus">+</div>
+          </div>
+          <p>Ежедневная раздача (каждый час)</p>
+          <div class="message__right_middle">
+            <div>100 Р</div>
+            <button class="add">принять участие</button>
+          </div>
+          <ul>
+            <li>1. Быть на сайте</li>
+            <li>2. За неделю пополнить 100 Р</li>
+            <li>3. Быть подписанным на сообщество в vk</li>
+            <li>4. Система случайным  образом выбирает 5 победителей и начисляет им 100 Рублей на баланс</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <footer>
+    <div class="container">
+      <nav>
+        <a href="#">Соглашение</a>
+        <a href="#">Для ютуберов</a>
+        <a href="#">Поддержка</a>
+      </nav>
+
+      <button class="open-chat">
+        <div class="open-chat__icon">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="open-chat__text">Открыть чат</div>
+      </button>
+      
+      <div class="links">
+        <div class="links__email">SUPPORT@VELOXCASH.RU</div>
+        <a href="#" class="links__soc vk">
+          <img src="img/vk.png">
+        </a>
+        <a href="#" class="links__soc">
+          <img src="img/tg.png">
+        </a>
+      </div>
+    </div>
+  </footer>
+  
+  <div class="connect-server">connect server</div>
+
+  <img src="img/circle-bg.png" class="circle-bg">
+
+  <div class="loading">loading</div>
+
+  <img src="img/design.png" class="design">
+  
+  <script src="jQuery.js"></script>
+  <script src="script.js"></script>
+  
+</body>
+
+</html>
